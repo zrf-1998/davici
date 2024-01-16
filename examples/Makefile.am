@@ -8,5 +8,8 @@ LDADD = \
 
 version_SOURCES = version.c
 
+list_policies_SOURCES = list_policies.c
+
 noinst_PROGRAMS = \
-	version
+	version \
+	list_policies
